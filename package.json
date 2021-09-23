@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "FSFE App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Corey Miller",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
