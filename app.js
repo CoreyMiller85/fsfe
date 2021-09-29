@@ -10,6 +10,7 @@ app.get("/teapot", (req, res) => {
 	res.set({
 		"x-test-thing": "yo mama",
 	});
+	res.send("hello");
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
