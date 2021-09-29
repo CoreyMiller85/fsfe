@@ -6,7 +6,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/teapot", (req, res) => {
-	res.send("hello world");
+	res.send("hello steve");
 });
 
 app.listen(port, () => console.log(`App listening on port ${port}!`));
